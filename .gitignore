@@ -1,0 +1,31 @@
+# ---- MATLAB / Simulink build output (regenerated on every run) -------------
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.mex*
+codegen/
+
+# ---- simulation results ---------------------------------------------------
+*.mat
+
+# ---- personal files, not part of the project ------------------------------
+_archive/original-downloads/
+_archive/scratch/
+
+# ---- OS noise -------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- delivery artefacts and superseded material ---------------------------
+Project.zip
+*.zip
+_archive/superseded/
+
+# ---- local history, not published -----------------------------------------
+# The stage-by-stage model snapshots and the original working log stay on disk
+# but are not version-controlled: they are large, and they still carry the
+# original model name inside them.
+_archive/snapshots/
+_archive/reference/

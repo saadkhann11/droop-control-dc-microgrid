@@ -1,0 +1,13 @@
+# Simulink models, MATLAB live scripts and Office files are binary: never try
+# to diff, merge or line-ending-convert them.
+*.slx  binary
+*.mdl  binary
+*.mlx  binary
+*.docx binary
+*.p    binary
+*.mat  binary
+*.png  binary
+
+# plain MATLAB source
+*.m    text eol=crlf diff=matlab
+*.md   text
